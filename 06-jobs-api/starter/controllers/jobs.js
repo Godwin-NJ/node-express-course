@@ -4,11 +4,11 @@ const getJobs = (req, res) => {
 const getJob = (req, res) => {
   res.send("get single Jobs");
 };
-const createJobs = (req, res) => {
-  res.send("create Jobs");
-};
+// const createJobs = (req, res) => {
+//   res.json(req.user);
+// };
 const createJob = (req, res) => {
-  res.send("create job");
+  res.json(req.user);
 };
 const updateJob = (req, res) => {
   res.send("update job");
@@ -21,7 +21,7 @@ module.exports = {
   getJob,
   getJobs,
   createJob,
-  createJobs,
+  // createJobs,
   updateJob,
   deleteJob,
 };
