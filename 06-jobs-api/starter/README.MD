@@ -67,3 +67,14 @@ Swagger UI
       required: true
       description: the job id
 ```
+
+<!-- users tested with  -->
+ <!-- "name":"godwin",
+    "password":"secret",
+    "email":"amadigodwin7@gmail.com" -->
+
+{
+"name":"Nwachukwu",
+"password":"secret",
+"email":"nwachukwu@gmail.com" or nwachu@gmail.com
+}
